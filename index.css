@@ -45,3 +45,13 @@
   padding: 10px;
   margin-bottom: 5px;
 }
+#heading {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.about {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
