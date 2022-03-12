@@ -55,3 +55,25 @@
   flex-flow: row wrap;
   justify-content: center;
 }
+#asset {
+  width: 75%;
+  height: 200px;
+  margin-left: 50px;
+
+  margin-top: 50px;
+}
+
+#head2 {
+  padding-top: 80px;
+  color: whitesmoke;
+  font-weight: bolder;
+}
+
+.services {
+  color: whitesmoke;
+  font-weight: bold;
+  padding: 3px;
+  font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
