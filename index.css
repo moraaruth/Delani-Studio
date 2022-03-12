@@ -87,3 +87,15 @@
 .toggle .text {
   margin-left: 10px;
 }
+.container1 {
+  margin-left: 120px;
+  margin-right: 100px;
+  align-content: center;
+  width: 60%;
+}
+.img-fluid {
+  max-width: 100%;
+  max-height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
