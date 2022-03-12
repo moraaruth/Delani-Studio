@@ -77,3 +77,13 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.toggle {
+  margin-top: 15px;
+}
+.toggle .image {
+  vertical-align: middle;
+  display: inline-block;
+}
+.toggle .text {
+  margin-left: 10px;
+}
