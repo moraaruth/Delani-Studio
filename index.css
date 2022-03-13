@@ -119,15 +119,17 @@
   padding: 15px;
 }
 #name {
-  background-color: black;
+  background-color: transparent;
+  color: whitesmoke;
 }
 #email {
-  background-color: none;
+  background-color: transparent;
+  color: whitesmoke;
 }
 #message {
-  max-width: 300px;
-  max-height: 300px;
+  min-width: 900px;
+  min-height: 190px;
   font-size: 18px;
-  background-color: black;
+  background-color: transparent;
   color: whitesmoke;
 }
