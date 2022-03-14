@@ -23,6 +23,26 @@
   justify-content: center;
 }
 
+.container-services {
+  background-image: url('asset.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 12%;
+  padding-bottom: 4%;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.services {
+  color: whitesmoke;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .imgDescription {
   position: absolute;
   top: 30%;
@@ -61,28 +81,12 @@
   margin-bottom: 5px;
 }
 
-#asset {
-  width: 75%;
-  height: 200px;
-  margin-left: 50px;
-
-  margin-top: 50px;
-}
-
 #head2 {
   padding-top: 80px;
   color: whitesmoke;
   font-weight: bolder;
 }
 
-.services {
-  color: whitesmoke;
-  font-weight: bold;
-  padding: 10px;
-  font-size: 15px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
-    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
 .tog {
   margin-top: 15px;
 }
