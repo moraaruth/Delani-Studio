@@ -60,6 +60,9 @@
   text-align: center;
   margin-left: 110px;
 }
+#design {
+  display: hidden;
+}
 
 .tog #design {
   margin-left: 10px;
