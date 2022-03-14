@@ -18,23 +18,15 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
     <link rel="stylesheet" href="index.css" />
     <title>Delani Studio</title>
 
+
     <script>
-        $(document).ready(function () {
-            $('img').click(function () {
-                $('#product').append(
-                    '<p>All engineers are fluent in the latest enterprise, mobile and web development technologies. They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>',
-                )
-            })
-        })
-    </script>
-    <script>
-        $(document).ready(function () {
-            $(".image").click(function () {
-                $(".text").toggle();
-            });
+        $("#hide").click(function () {
+            $("text").hide();
         });
     </script>
 
@@ -120,7 +112,7 @@
         <div class="container4">
             <div class="row">
                 <div class="col-md-4">
-                    <div class="toggle">
+                    <div class="tog">
                         <span class="image">
                             <img src="design_icon.png" alt="Show/Hide Image" />
                         </span>
@@ -268,6 +260,11 @@
 
 
 
+
+        </div>
+        <br>
+        <div class="copyright">
+            <p>DELANI STUDIO<br> 2019</p>
 
         </div>
 

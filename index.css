@@ -77,21 +77,21 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.toggle {
+.tog {
   margin-top: 15px;
 }
-.toggle .image {
+.tog .image {
   vertical-align: middle;
   display: inline-block;
 }
-.toggle .text {
+.tog .text {
   margin-left: 10px;
 }
 .container1 {
-  margin-left: 120px;
+  margin-left: 200px;
   margin-right: 100px;
   align-content: center;
-  width: 60%;
+  width: 58%;
 }
 .img-fluid {
   max-width: 100%;
@@ -151,4 +151,7 @@
   width: 90%;
   margin-left: 80px;
   margin-top: 30px;
+}
+.copyright {
+  text-align: center;
 }
