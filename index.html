@@ -18,6 +18,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
     <link rel="stylesheet" href="index.css" />
@@ -84,27 +85,21 @@
 
     <div class="container-services">
 
-        <div class="d-flex justify-content-center align-items-center h-100">
+        <h3 id="head2">SERVICES</h3>
 
-            <div class="text-white">
+        <p class="services">Before we sign a contract or write a line of code our team will spend the
+            necessary time needed to understand your project vision.</p>
 
-                <h2 class="mb-3 h2"></h2>
+        <p class="services">The outcome of this scoping session is a proposal or high-level statement of
+            work.</p>
 
-                <h3 id="head2">SERVICES</h3>
-
-                <p class="services">Before we sign a contract or write a line of code our team will spend the
-                    necessary time needed to understand your project vision.<br>
-                <p class="services">The outcome of this scoping session is a proposal or high-level statement of
-                    work.</p>
-                <p class="services"> Based on your requirements, we can provide a complete offering or just the
-                    pieces you
-                    need.</p>
-            </div>
-        </div>
-    </div>
+        <p class="services"> Based on your requirements, we can provide a complete offering or just the
+            pieces you
+            need.</p>
     </div>
 
-    <div class="container4">
+
+    <div class="container">
 
         <div class="row">
 
@@ -121,55 +116,77 @@
                     <span class="text">
 
                         <h3 style="font-weight: bold;">Design</h3>
-                        <p>Our design practice offers a full range of services
-                            including brand strategy, interaction and visual design and user experience testing.</p>
+
+                        <p>Our design practice offers a full range of services including brand strategy, interaction and
+                            visual design and user experience testing.</p>
+
                         <p>Throughout your project, our designers create and implement visual design and workflows,
                             solicit user feedback and work with you to make sure what gets built is what is needed.
                         </p>
+
                     </span>
+
                 </div>
+
             </div>
 
             <div class="col-md-4">
+
                 <div class="tog">
+
                     <span class="image">
+
                         <img src="dev_icon.png" alt="Show/Hide Image" />
 
                     </span>
+
                     <span class="text">
+
                         <h3 style="font-weight: bold;">Development</h3>
+
                         <p>All engineers are fluent in the latest enterprise, mobile and web development
                             technologies.</p>
+
                         <p>They collaborate with your team to write, and improve code on a daily basis, using
-                            proven
-                            practices
+                            proven practices
                             such as test-driven development and pair programming.</p>
+
                     </span>
+
                 </div>
+
             </div>
+
             <div class="col-md-4">
+
                 <div class="tog">
+
                     <span class="image">
+
                         <img src="product_icon.png" alt="Show/Hide Image" />
+
                     </span>
 
                     <span class="text">
+
                         <h3 style="font-weight: bold;">Product Management</h3>
+
                         <p>Planning and development is iterative. Because we are constantly coding and testing, the
                             products we build are always ready to go live.</p>
+
                         <p>This iterative process allows for changes as business requirements evolve.</p>
+
                     </span>
+
                 </div>
 
-
             </div>
-
 
         </div>
 
     </div>
-    <div class="container1">
-        <h3 style="text-align: center;">PORTFOLIO</h3>
+    <div class="container">
+        <h3 style="text-align: center; font-weight: bolder;">PORTFOLIO</h3>
 
         <div class="row">
             <div class="col-md-3" id="image1">
@@ -239,40 +256,68 @@
     </div>
     <br>
 
-    <div class="container2" class="image-fluid">
+    <div class="container1">
 
-        <div>
+        <div id="form">
 
-            <span>
+            <div class="container">
 
-                <form id="form">
-                    <span>
-                        <h4 style="text-align: center; color: whitesmoke; font-weight: bolder;">CONTACT US</h4>
-                    </span>
-                    <div class="form-row">
-                        <div class="form-group col-md-6">
-                            <label for="name"></label>
-                            <input type="text" class="form-control" id="name" placeholder="Name...">
+                <span>
+
+                    <form action="destination.html" method="POST" id="form1">
+
+                        <span>
+
+                            <h4 style="text-align: center; color: whitesmoke; font-weight: bolder;">CONTACT US</h4>
+
+                        </span>
+
+                        <div class="form-row">
+
+                            <div class="form-group col-md-6">
+
+                                <label for="name"></label>
+
+                                <input type="text" class="form-control" id="name" placeholder="Name...">
+
+                            </div>
+
+                            <div class="form-group col-md-6">
+
+                                <label for="email"></label>
+
+                                <input type="email" class="form-control" id="email" placeholder="Email...">
+
+                            </div>
+
                         </div>
-                        <div class="form-group col-md-6">
-                            <label for="email"></label>
 
+                        <div class="form-group1">
 
-                            <input type="email" class="form-control" id="email" placeholder="Email...">
+                            <label for="message"></label>
+
+                            <textarea type="text" class="form-control" id="message" col="100"
+                                row="20">Your message here </textarea>
+
                         </div>
-                    </div>
-                    <div class="form-group1">
-                        <label for="message"></label>
-                        <textarea type="text" class="form-control" id="message" col="100"
-                            row="20">Your message here </textarea>
 
-                    </div>
-                </form>
-            </span>
+                        <input type="submit" value="Submit">
+
+                    </form>
+
+
+
+                </span>
+            </div>
+
         </div>
+
     </div>
+
     <br>
+
     <div class="container3">
+
         <img src="twitter.png" alt="twitter">
         <img src="dribble.png" alt="dribble">
         <img src="facebook.png" alt="facebook">
@@ -283,12 +328,12 @@
         <img src="pinterest.png" alt="pinterest">
         <img src="flickr.png" alt="flickr">
 
-
-
-
     </div>
+
     <br>
+
     <div class="copyright">
+
         <p>DELANI STUDIO<br> 2019</p>
 
     </div>
