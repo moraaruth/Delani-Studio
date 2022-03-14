@@ -1,4 +1,42 @@
 $(document).ready(function(){
+    $("#design_image").click(function(){
+      $("#design_image").slideDown('1500').hide('1000');
+      $("#d").show('1500');
+    });
+    $("#design").click(function(){
+      $("#design").slideUp('1500');
+      $("#design-image").slideDown('1500');
+    });
+  });
+
+  $(document).ready(function(){
+    $("#development_image").click(function(){
+      $("#development_image").slideDown('1500').hide('1000');
+      $("#d").show('1500');
+    });
+    $("#development").click(function(){
+      $("#development").slideUp('1500');
+      $("#development-image").slideDown('1500');
+    });
+  });
+  
+
+  $(document).ready(function(){
+    $("#product_image").click(function(){
+      $("#product_image").slideDown('1500').hide('1000');
+      $("#d").show('1500');
+    });
+    $("#product").click(function(){
+      $("#product").slideUp('1500');
+      $("#product-image").slideDown('1500');
+    });
+  });
+  
+  
+
+
+
+$(document).ready(function(){
     $("#image1").mouseover(function(){
       $("#work4").show();
     }).mouseout(function(){
@@ -68,3 +106,4 @@ $(document).ready(function(){
     }
     });
   });
+

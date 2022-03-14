@@ -50,18 +50,43 @@
 }
 
 .tog {
-  margin-top: 25px;
+  margin-top: 40px;
 }
-.tog .image {
+.tog #design_image {
   vertical-align: middle;
   display: inline-block;
 }
-.image {
+#design_image {
   text-align: center;
   margin-left: 110px;
 }
 
-.tog .text {
+.tog #design {
+  margin-left: 10px;
+}
+.tog #development_image {
+  vertical-align: middle;
+  display: inline-block;
+}
+#development_image {
+  text-align: center;
+  margin-left: 110px;
+}
+
+.tog #development {
+  margin-left: 10px;
+}
+
+.tog #product_image {
+  vertical-align: middle;
+  display: inline-block;
+}
+#product_image {
+  text-align: center;
+  margin-left: 110px;
+}
+
+.tog #product {
   margin-left: 10px;
 }
 
