@@ -29,7 +29,9 @@ Ruth Moraa
 
 ### Installation Process
 
-- To view the website, open the Github Pages link i.e https://github.com/moraaRuth/Delani-Studio Clone this repository using 'https://github.com/moraaRuth/Delani-Studio.
+- In terminal `git clone https://github.com/moraaRuth/Delani-Studio.git` to desired local folder.
+
+- cd into the cloned repo
 
 - Open the index.html file to view the application on your preffered web browser.
 
@@ -56,7 +58,7 @@ Ruth Moraa
 ## Github Pages link
 
 You can view the live application by following this link
-https://moraaruth.github.io/Delani-Studio/
+[Delani Studio](https://moraaruth.github.io/Delani-Studio/)
 
 ## Reference
 
